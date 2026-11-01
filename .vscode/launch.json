@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "CP: Debug solution",
+      "type": "codelldb",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}_tests/sol-debug.bin",
+      "preLaunchTask": "CP: Build (debug)",
+      "cwd": "${fileDirname}",
+      "args": []
+    }
+  ]
+}
